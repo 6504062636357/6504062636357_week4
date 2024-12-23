@@ -20,7 +20,7 @@ class EVChargingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF0D1B2A), // สีพื้นหลัง
+      backgroundColor: const Color(0xFF0D1B2A), 
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -44,7 +44,7 @@ class EVChargingScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             Image.network(
-              'https://pngimg.com/uploads/tesla_car/tesla_car_PNG36.png', // ใส่ลิงก์ภาพตรงนี้
+              'https://pngimg.com/uploads/tesla_car/tesla_car_PNG36.png', 
               height: 150,
               fit: BoxFit.contain,
             ),
